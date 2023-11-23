@@ -21,7 +21,7 @@ public class LoginTest extends BaseTest{
 		app.myAccount.loginInApp(user, pass);
 		
 		assertTrue(app.elementIsDisplayed(app.myAccount.successMsg));
-		ScreenShots.screenshot(driver);
+		//ScreenShots.screenshot(driver);
 		app.click(app.myAccount.logoutButton);
 		
 		
